@@ -1,10 +1,9 @@
 import math
-n=int(input("type the number : "))
+n=int(input("Please type the number : "))
 
-factoriel = 1
+if n % 2 == 0:
+    print("yes")
 
-for i in range(1,1+n):
-
-    factoriel= factoriel*i
-
-print(factoriel)
+else:
+    print("no")    
+ 
