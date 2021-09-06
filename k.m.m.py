@@ -7,7 +7,7 @@ else:
     min1=b
 while (1):
     if(min1%a==0 and min1%b==0):
-        print("b.m.m :",min1)
+        print("k.m.m :",min1)
         break
     min1=min1+1    
 
