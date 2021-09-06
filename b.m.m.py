@@ -1,32 +1,12 @@
 import math
-
-x=int (input("type the number1 : "))
-y=int(input("type the number2 : "))
-
-i=0
-
-if x % 2 == 0 or y% 2==0 :
-
-    print(2)
-
-    b =(x,y)/2
-
-elif  (x,y) % 2 != 0:
-
-   
-    for i in range((x,y) % i == 0):
-
-        print(i)
-
-        (x,y/i)
-
-        i=i+2
-        
-
-        if (x,y) > 2 :
-
-            print((x,y))
- 
-
-
-
+a=int(input("Please type the first number : "))
+b=int(input("Please type the second number : "))
+if (a>b):
+    min1=a
+else:
+    min1=b
+while (1):
+    if(min1%a==0 and min1%b==0):
+        print("b.m.m :",min1)
+        break
+    min1=min1+1    
